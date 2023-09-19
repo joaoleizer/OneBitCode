@@ -1,2 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.title {
+    margin: 0.5em;
+    font-size: 2.5em;
+    color: white;
+}
+
+.box1 {
+    background-color: rgb(68, 201, 79);
+    padding: 5em;
+    border-radius: 5em;
+    margin-bottom: 0.9em;
+    color: white;
+}
+
+.nameAlbums {
+    font-size: 2em;
+}
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.box2 {
+    background-color: rgb(224, 23, 23);
+    padding: 5em;
+    border-radius: 5em;
+    color: white;
+}
 
