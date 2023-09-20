@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    color: rgb(1, 207, 1);
+    font-size: 3em;
+    margin: 0.5em 0em 0.7em;
+}
+
+.table {
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.37);
+    border-color: black;
+}
+.head, .data {
+    padding: 0.5em;
+}
