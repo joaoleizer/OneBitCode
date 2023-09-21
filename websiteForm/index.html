@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1 class="title">Formulário de inscrição</h1>
+
+    <form action="" class="applicationForm">
+        <label for="name">Nome:</label>
+        <br>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="telephone">WhatsApp:</label>
+        <br>
+        <input type="tel" name="telephone" id="telephone" required>
+        <br><br>
+        <label>Área de atuação:</label>
+        <div class="boxRadio">  
+            <input type="radio" name="occupationArea" id="desenvolvimento" value="desenvolvimento" checked>
+            <label for="desenvolvimento">Desenvolvimento</label>
+
+            <input type="radio" name="occupationArea" id="qualityAssurance" value="qualityAssurance">
+            <label for="qualityAssurance">Quality assurance (QA)</label>
+
+            <input type="radio" name="occupationArea" id="analiseDeDados" value="analiseDeDados">
+            <label for="analiseDeDados">Análise da dados</label>
+
+            <input type="radio" name="occupationArea" id="infraestrutura" value="infraestrutura">
+            <label for="infraestrutura">Insfraestrutura</label>
+        </div>
+        <br><br>
+        <label for="comments">Observações:</label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="2" placeholder="Escreva o que você espera..."></textarea>
+        <br><br>
+        <input type="checkbox" name="news" id="news">
+        <label for="news">Deseja receber novidades e ofertas por email.</label>
+        <br>
+        <button class="submitButton">Enviar</button>
+    </form>
+</body>
+</html>
