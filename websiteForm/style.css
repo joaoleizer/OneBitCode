@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    color: #a57227;
+}
+
+.applicationForm {
+   text-align: center;
+   margin: 1em;
+   background-color: #a88648;
+   color: #eed5b6;
+   padding: 1em;
+}
+
+.submitButton {
+    padding: 0.5em;
+    background-color: #a57227;
+    border: 0.2em solid #a57227;
+    color: #eed5b6;
+    margin-top: 0.2em;
+}
