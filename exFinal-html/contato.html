@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício final html</title>
+</head>
+<body>
+    <header class="boxHeader">
+        <h1 class="titleHeader">Escritório de contabilidade ABC</h1>
+
+        <nav class="navigation">
+            <ul class="buttonsNav">
+                <li><a href="index.html" target="_self" rel="prev">início</a></li>
+                <li><a href="sobre.html" target="_self" rel="next">Sobre nós</a></li>
+                <li><a href="serviços.html" target="_self" rel="next">Serviços</a></li>
+                <li><a href="contato.html" target="_self" rel="next">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="boxMain">
+        <section>
+                <h2 class="title">Contato</h2>
+
+                <p class="text">Entre em contato conosco para obter mais informações ou agendar uma reunião para discutir suas nescessidades contábeis. Nossa equipe está pronta para ajudá-lo.</p>
+        </section>
+
+        <section class="boxInformationContact">
+            <h2 class="title">Informações de contato</h2>
+
+            <address>
+                <ul class="list">
+                    <li>Email: contato@escritorioabc.com</li>
+                    <li>Telefone: (11)1234-5678</li>
+                    <li>Endereço: Rua das flores, 123-São Paulo-SP</li>
+                </ul>
+            </address>
+        </section>
+
+        <section class="boxTime">
+            <p class="text">Segunda a sexta-feira, das 8h às 18h.</p>
+        </section>
+
+        <section class="boxForm">
+            <form action="">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome..." required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email..." required>
+
+                <label for="menssage">Mensagem:</label>
+                <textarea name="menssage" id="menssage" cols="30" rows="2"></textarea>
+
+                <button class="submit">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="textFooter">&#169; Escritório de contabilidade ABC</p>
+    </footer>
+</body>
+</html>
