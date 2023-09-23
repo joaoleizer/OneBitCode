@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Exercício final html</title>
 </head>
 <body>
@@ -11,23 +12,23 @@
 
         <nav class="navigation">
             <ul class="buttonsNav">
-                <li><a href="index.html" target="_self" rel="prev">início</a></li>
-                <li><a href="sobre.html" target="_self" rel="next">Sobre nós</a></li>
-                <li><a href="serviços.html" target="_self" rel="next">Serviços</a></li>
-                <li><a href="contato.html" target="_self" rel="next">Contato</a></li>
+                <li><a href="index.html" target="_self" rel="next" class="link">início</a></li>
+                <li><a href="sobre.html" target="_self" rel="next" class="link">Sobre nós</a></li>
+                <li><a href="serviços.html" target="_self" rel="next" class="link">Serviços</a></li>
+                <li><a href="contato.html" target="_self" rel="next" class="link">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="boxMain">
-        <section>
+        <section class="boxContent">
                 <h2 class="title">Serviços</h2>
 
                 <p class="text">Nosso escritório de contabilidade oferece uma ampla gama de serviços para atender às necessidades específicas de cada cliente. Nossa equipe está preparada para auxiliá-lo em questões contábeis, fiscais e financeiras, garantindo a conformidade legal e a saúde financeira do seu negócio.
                    </p>
         </section>
 
-        <section class="boxMainServices">
+        <section class="boxContent">
             <h2 class="title">Principais serviços</h2>
 
             <ul class="list">
@@ -42,7 +43,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="boxFooter">
         <p class="textFooter">&#169; Escritório de contabilidade ABC</p>
     </footer>
 </body>
