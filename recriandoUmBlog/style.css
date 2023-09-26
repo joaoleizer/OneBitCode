@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-container {
+    margin: 0 25% 0 25%;
+    background-color: #f8f6f6;
+}
+
+.post {
+    padding: 4em;
+}
+
+.date {
+    font-family: 'roboto', 'helvetica', sans-serif;
+    color: #008080;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-family: 'montserrat', 'helvetica', sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.post-content {
+    font-family: 'opensans', 'helvetica', sans-serif;
+}
