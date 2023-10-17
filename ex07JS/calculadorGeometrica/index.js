@@ -18,7 +18,7 @@ function areaTrapezio(baseMA, baseMe, altura) {
 }
 
 function areaCirculo(raio) {
-    return 3.14 * raio
+    return 3.14 * raio * raio
 }
 do {
     option = prompt(
