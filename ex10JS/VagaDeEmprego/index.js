@@ -16,7 +16,6 @@ function menu() {
 }
 
 do {
-    console.log(vaga[0])
     option = menu()
     switch (option) {
         case "1":
@@ -75,8 +74,27 @@ do {
                 break
             }
         case "4":
-            break
+            if (vaga.length > 0){
+                indice = parseInt(prompt("Qual o indice da vaga? "))
+                let sobre = 
+                "Vaga escolhida: " +
+                "\n" + indice + "-" + vaga[indice - 1].nome +
+                "\nDescrição: " + vaga[indice - 1].descrição +
+                "\nData limite: " + vaga[indice - 1].dataLimite +
+                "\nQuantidade de candidatos: " + vaga[indice - 1].candidatos.length +
+                "\nCandidatos inscritos: "
+    
+                for (let i = 0; i < vaga[indice - 1].candidatos.length; i++) {
+                    sobre += "\ncanditado " + (i + 1) + ": " + vaga[indice - 1].candidatos[i]
+                }
+                alert(sobre)
+                break
+            }else {
+                alert("Não a vagas disponíveis!!")
+                break
+            }
         case "5":
+           
             break
         case "6":
             alert("Finalizando...")
@@ -84,4 +102,5 @@ do {
         default:
             alert("Opção inválida tente novamente!!")
     }
+
 } while (option !== "6")
