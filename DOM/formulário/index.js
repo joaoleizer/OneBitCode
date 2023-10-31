@@ -28,4 +28,11 @@ form.addEventListener('submit', function (ev) {
     } else {
         alert("Pedido cancelado!!")
     }
+
+    document.querySelector('input[name="name"]').value = ""
+    document.querySelector('input[name="address"]').value = ""
+    document.querySelector('select[name="breadType"]').value = ""
+    document.querySelector('input[name="main"]').value = ""
+    document.querySelector('textarea').value = ""
+    
 })
